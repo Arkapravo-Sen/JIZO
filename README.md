@@ -3,7 +3,7 @@ An innovative IOT solution utilizing Raspberry Pi and multiple sensors to help y
 
 ## Introduction:
 
-Every year, an average of thirty-eight children under the age of 15 tragically lose their lives due to heat-related accidents in enclosed vehicles. To tackle this issue, our project aims to significantly reduce the number of these fatalities by the use of an innovative IoT-based child safety system, incorporating Raspberry Pi, sensors, and a 4G dongle. The core objective is to alert parents or guardians,  mitigating the risk and consequences of leaving a child unattended in a hot car.
+Every year, an average of thirty-eight children under the age of 15 tragically lose their lives due to heat-related accidents in enclosed vehicles. To tackle this issue, our project aims to significantly reduce the number of these fatalities by the use of an innovative IoT-based child safety system, incorporating Raspberry Pi, sensors, and a 4G dongle. The core objective is to alert parents or guardians,  mitigating the risk and consequences of leaving a child unattended in a hot car. (Using Email to alert people is free. If you want to use Text messages you will need to use Twillio which  is not free. I have used email in this project)
 
 ## Purpose:
 Develop a device to alert parents of unattended children in cars and prevent temperature rise in vehicles, saving lives and mitigating risks.
