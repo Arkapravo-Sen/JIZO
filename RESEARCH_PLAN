@@ -1,0 +1,79 @@
+Student’s last name: Sen
+Grade: 10th grade
+Category: Engineering and Technology
+
+Problem Statement:
+Children under the age of 15 face the risk of heat-related accidents when left unattended in vehicles, leading to preventable fatalities.
+
+Rationale:
+Heat-related deaths in cars can be averted with timely intervention. This highlights the need for an affordable solution.
+
+Importance:
+The proposed IoT-based child safety system aims to save lives by offering a cost-effective solution to prevent heat-related accidents in vehicles, focusing on the vulnerable group of children under 15.
+
+Proposal:
+Develop an IoT-based child safety system utilizing a Raspberry Pi, sensors, and a 4G dongle to monitor and regulate temperature in cars. The system will send real-time alerts to parents or guardians, providing a proactive solution to the issue of leaving children unattended in vehicles.
+
+Research Question:
+Can an IoT-based child safety system effectively prevent heat-related car accidents for children under 15?
+
+Goal:
+The primary goal is to design, implement, and evaluate the effectiveness of an affordable IoT-based child safety system to reduce heat-related accidents in cars.
+
+Hypothesis:
+An IoT-based device can alert caregivers of an unattended child given that it has an internet connection, and if the situation is dire, help save the child.
+
+Device Development:
+Construct the IoT-based child safety system using Raspberry Pi, sensors, 4G dongle and USB fan.
+
+Testing:
+Conduct controlled experiments to evaluate the accuracy and responsiveness of the system in detecting unattended children and regulating the car's temperature.
+
+Real-world Testing:
+Implement the device in real-world scenarios to assess its performance in varied conditions.
+
+Data Collection:
+Gather data on accuracy of sensors and effectiveness of program.
+
+Data Analysis:
+Collect performance information for each element.
+	
+	State of car: Does the device detect the state of the car (on or off) accurately? As this step is critical to the performance of the device, it must get a perfect score.
+
+
+	Person Detection: Does the device detect people well ? This step is also very important as alongside the noise detection, this metric will be used to determine if we send alerts or not.
+
+
+	Noise Detection: This step is of equal importance to the Person Detection, if the camera is unable to determine if a person is in the space, the mic will provide an additional level of security minimizing potentially deadly errors.
+
+
+Temperature and humidity detection: This step will only be activated if the car is off, and a person is detected. This will tell the device the temperature of the car so that it may be controlled.
+
+
+Email/SMS Sending Capability:
+Evaluate the device's ability to send alerts after achieving the desired outcome.
+
+Ethical Considerations:
+Adhere to ethical standards, prioritizing the safety and well-being of participants.
+
+Data Security:
+Implement measures to protect user data and ensure the privacy of individuals involved in the study.
+
+Bibliography:
+
+https://www.consumerreports.org/cars/car-safety/hot-car-fatalities-year-round-threat-to-children-pets-heat-stroke-a2015990109/#:~:text=The%20National%20Highway%20Traffic%20Safety,reaches%20about%20104%C2%B0%20F.
+
+https://injuryfacts.nsc.org/motor-vehicle/motor-vehicle-safety-issues/hotcars/#:~:text=Motor%20Vehicle%20Safety%20Issues,-Hot%20Car%20Deaths&text=The%20number%20of%20child%20hot,least%20one%20death%20since%201998.
+
+https://www.nhtsa.gov/child-safety/you-can-help-prevent-hot-car-deaths
+
+https://www.noheatstroke.org/
+
+https://makersportal.com/blog/2018/8/23/recording-audio-on-the-raspberry-pi-with-python-and-a-usb-microphone
+
+https://stackoverflow.com/questions/2668442/detect-and-record-a-sound-with-python
+
+https://how2electronics.com/how-to-use-ads1115-16-bit-adc-module-with-raspberry-pi/
+
+https://www.youtube.com/watch?v=WUoCCQmxxEk
+
