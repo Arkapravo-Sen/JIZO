@@ -15,7 +15,7 @@ import Adafruit_ADS1x15
 smtp_port = 587
 smtp_server = "smtp.gmail.com"
 
-pswd = "nmsunrjcqsiwbntg"
+pswd = "Go to your google account and select app passwords / less secure apps. Put in the password google gives to you here."
 
 simple_email_context = ssl.create_default_context()
 
@@ -88,6 +88,8 @@ def PERSON_STATUS():
         cv2.waitKey(1)
         
         return class_id
+
+# Check temperature
 
 def Check_Temperature(sensor, pin):
     try:
