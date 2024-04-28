@@ -51,7 +51,7 @@ def MOVEMENT_STATUS(GPIO_PIN_IN):
 # Check for person
 def PERSON_STATUS():
     # Load YOLO model for object detection
-    net = cv2.dnn.readNet("/home/raspberrypi/dnn_model-220107-114215/dnn_model/yolov4-tiny.weights", "/home/raspberrypi/dnn_model-220107-114215/dnn_model/yolov4-tiny.cfg")
+    net = cv2.dnn.readNet("Download a person detection model and give the path for the weights to it here", "Download a person detection model and give the path to the cfg file here")
     model = cv2.dnn_DetectionModel(net)
     model.setInputParams(size=(150, 150), scale=1/255)
 
