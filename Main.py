@@ -139,7 +139,7 @@ while True:
     # If conditions trigger alert, send email
     if counter == 1:
         # Read email information from JSON file
-        json_file = open('/home/raspberrypi/registered_information.json', 'r')
+        json_file = open('path to registered_information.json', 'r')
         json_Data = json_file.read()
 
         json_obj = json.loads(json_Data)
