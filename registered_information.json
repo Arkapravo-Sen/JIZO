@@ -1,0 +1,15 @@
+{
+    "firstName": "FirstName",
+    "lastName": "LastName",
+    "carNumber": "123456",
+    "registeredEmail": "sender_email",
+    "emergencyEmail": [
+    
+        {
+            "email": "receiver1"
+        },
+        {
+            "email": "receiver2"
+        }
+    ]
+}
