@@ -1,4 +1,4 @@
-import MYLIBRARY as L  # Import your custom library
+import MYLIBRARY as L  # Import your custom library as L
 import RPi.GPIO as GPIO  # Library for Raspberry Pi GPIO
 import time  # Time-related functions
 import cv2  # OpenCV for computer vision
