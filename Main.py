@@ -1,3 +1,5 @@
+# I HAVE MADE A CUSTOM LIBRARY OF FUNCTIONS CALLED "MYLIBRARY", IF THE FUNCTIONS IN THIS FILE DO NOT MAKE SENSE I SUGGEST YOU GO TO MYLIBRARY.py
+
 import MYLIBRARY as L  # Import your custom library as L
 import RPi.GPIO as GPIO  # Library for Raspberry Pi GPIO
 import time  # Time-related functions
